@@ -102,7 +102,8 @@ class BackgroundSegmentation(App):
     def webcam_output(self) -> None:
         self.do_vid = True  # flag to stop loop
 
-        cap = cv2.VideoCapture("video.mp4")
+        #cap = cv2.VideoCapture("video.mp4")
+        cap = cv2.VideoCapture(0)
         with self.mp_selfie_segmentation.SelfieSegmentation(model_selection=0) as sg:
             while self.do_vid:
                 success, img = cap.read()
