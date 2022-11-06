@@ -5,5 +5,7 @@
 
 Pose Segmantation
 
-https://user-images.githubusercontent.com/73878161/200168686-fce1909f-5eb9-4b58-aee0-724391e0f3f5.mp4
+
+
+![res](https://user-images.githubusercontent.com/73878161/200168960-35a745c0-e45b-4666-a4a5-433c05d06670.png)
 
